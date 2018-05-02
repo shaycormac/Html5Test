@@ -1,0 +1,272 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 18px 15px
+}
+
+.container p {
+    font-size: 14px;
+    color: #f899
+}
+
+.container img {
+    width: 100%;
+    margin-top: 10px
+}
+
+@charset "UTF-8";
+html {
+    font-size: 12px !important
+}
+
+html, html body {
+    width: 100%;
+    height: 100%
+}
+
+html body {
+    position: relative;
+    text-align: left;
+    background: #fff;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    color: #262626
+}
+
+html blockquote, html body, html code, html dd, html div, html dl, html dt, html fieldset, html figcaption, html figure, html form, html h1, html h2, html h3, html h4, html h5, html h6, html input, html legend, html li, html ol, html p, html pre, html td, html textarea, html th, html ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+html input, html p, html select, html textarea {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    color: #262626;
+    outline: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+html table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html fieldset, html img {
+    border: 0
+}
+
+html address, html caption, html cite, html code, html dfn, html em, html th, html var {
+    font-style: normal;
+    font-weight: 400
+}
+
+html li {
+    list-style: none
+}
+
+html caption, html th {
+    text-align: left
+}
+
+html abbr, html acronym {
+    border: 0;
+    font-variant: normal
+}
+
+html sub, html sup {
+    vertical-align: text-top
+}
+
+html sub {
+    vertical-align: text-bottom
+}
+
+html a {
+    font-size: 12px;
+    color: #999
+}
+
+html a, html a:hover {
+    text-decoration: none
+}
+
+html a:hover {
+    color: #9b6e2b
+}
+
+html a:active, html a:visited {
+    text-decoration: none;
+    color: #999
+}
+
+html * {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    text-decoration: none;
+    transform: Â translateZ(0)
+}
+
+html .clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+html .clearfix {
+    *zoom: 1
+}
+
+[v-cloak] {
+    display: none
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #b2b2b2;
+    opacity: .5
+}
+
+:-moz-placeholder, ::-moz-placeholder {
+    font-size: 14px;
+    color: #b2b2b2;
+    opacity: .5
+}
+
+:-ms-input-placeholder {
+    font-size: 14px;
+    color: #b2b2b2;
+    opacity: .5
+}
+
+.c-float-popWrap {
+    width: 250px;
+    z-index: 888;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(38, 38, 38, .35)
+}
+
+.c-float-popWrap, .c-float-popWrap .c-float-modePop {
+    border-radius: 2px;
+    position: absolute;
+    background: #fff
+}
+
+.c-float-popWrap .c-float-modePop {
+    top: 38%;
+    width: 80%;
+    left: 10%
+}
+
+.c-float-popWrap .c-float-modePop .warnIcon {
+    position: absolute;
+    top: 16px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px
+}
+
+.c-float-popWrap .c-float-modePop .warnMsg {
+    text-align: center;
+    color: #d1c08a;
+    padding: 1rem !important;
+    font-size: 1.42rem;
+    border-bottom: 2px solid #f9f7f0
+}
+
+.c-float-modePop .warnMsg {
+    color: #333
+}
+
+.c-float-popWrap .c-float-modePop .warnCon {
+    padding: 1rem 8%;
+    color: #666;
+    line-height: 16px;
+    word-wrap: break-word
+}
+
+.c-float-popWrap .c-float-modePop .warnCon .org-color {
+    font-size: 14px;
+    color: #d5985e
+}
+
+.c-float-popWrap .c-float-modePop .content {
+    margin-top: 10px
+}
+
+.c-float-popWrap .c-float-modePop .doBtn {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    height: 3.33rem;
+    margin-bottom: 1.5rem
+}
+
+.c-float-popWrap .c-float-modePop button {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    font-size: 1.25rem;
+    background: transparent;
+    border-radius: 2px;
+    padding: 0;
+    border: 1px solid #d3d2d1;
+    cursor: pointer;
+    font-family: \\5FAE\8F6F\96C5\9ED1
+}
+
+.c-float-popWrap .c-float-modePop button.cancel {
+    position: absolute;
+    background: #ddd;
+    border: 0 solid #e4e5e6;
+    height: 100%;
+    color: #fff;
+    margin-right: 8%;
+    width: 35%
+}
+
+.c-float-popWrap .c-float-modePop button.ok {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    height: 100%;
+    background: #d1c08a;
+    margin-left: 8%;
+    width: 35%
+}
+
+.c-float-popWrap.hide {
+    display: none;
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.c-float-popWrap.show {
+    top: 0 !important;
+    left: 0 !important;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background: rgba(0, 0, 0, .498039);
+    display: block;
+    box-shadow: 0 2px 8px 0 rgba(38, 38, 38, .35);
+    -webkit-box-shadow: 0 2px 8px 0 rgba(38, 38, 38, .35)
+}
+
+.c-float-popWrap.alertMode .c-float-modePop .content, .c-float-popWrap.alertMode .c-float-modePop .doBtn .cancel, .c-float-popWrap.msgMode .c-float-modePop .content, .c-float-popWrap.msgMode .c-float-modePop .doBtn {
+    display: none
+}
+
+.c-float-popWrap.confirmMode .c-float-modePop .content, .c-float-popWrap.confirmMode .c-float-modePop .doBtn {
+    display: block
+}
